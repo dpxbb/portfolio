@@ -1,0 +1,127 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+header 
+{ 
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(Files/pic1.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-nav
+{ 
+    float: right; 
+    list-style: none;
+    margin-top: 25px;
+}
+
+.main-nav li
+{ 
+    display: inline-block;
+
+}
+
+.main-nav li a 
+{ 
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px; 
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{ 
+    border: 1px solid white;
+    background-color: rgba(245, 239, 239, 0.452);
+
+}
+
+.main-nav li a:hover
+{ 
+    border: 1px solid white;
+    background-color: rgba(245, 239, 239, 0.452);
+
+}
+
+.logo img
+
+{
+    width: 250px;
+    height: auto;
+    float: left; 
+}
+
+body
+{
+    font-family: monospace;
+}
+
+.row 
+{
+    max-width: auto;
+    margin: auto;
+}
+
+.connect 
+{
+position: absolute;
+width: 1200px;
+margin-left: 0px;
+margin-top: 0px;
+}
+
+h1
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 440px
+}
+
+.btn 
+{
+    border: 1px solid whitesmoke;
+    padding: 10px 30px;
+    color: white; 
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.btn-one 
+{
+    background-color: rgba(14, 118, 168);
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-two 
+{
+    background-color: rgba(33, 31, 31);
+    font-family: "Roboto", sans-serif; 
+}
+
+.btn-three
+{
+    background-color: rgba(0, 172, 238);
+    font-family: "Roboto", sans-serif;  
+}
+
+.btn-four 
+{
+    background-color: rgb(65, 61, 61);
+    font-family: "Roboto", sans-serif; 
+}
